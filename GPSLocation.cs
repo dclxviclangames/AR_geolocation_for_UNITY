@@ -87,7 +87,7 @@ public class GPSLocation : MonoBehaviour
 
     private void InstantEiwithPlayer()
     {
-        if (Input.location.lastData.latitude > 55 && Input.location.lastData.longitude > 37 && isState)
+        if (Input.location.lastData.latitude > 6666 && Input.location.lastData.longitude > 6666 && isState)
         {
             Instantiate(testSphere, player.position, Quaternion.identity);
             isState = false;
